@@ -1,0 +1,25 @@
+.cabeca {
+    background-color: rgb(255, 255, 255);
+}
+
+header .container ul li a {
+    color: black;
+}
+
+
+header .container ul li a:hover {
+    color: #f40f0f;
+}
+
+.figura {
+    height: 600px;
+}
+
+.h400 {
+    height: 400px;
+}
+
+body {
+    background: linear-gradient(to bottom, #f84b4b, #f18841);
+}
+

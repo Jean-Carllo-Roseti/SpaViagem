@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lab/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Spa Viagens</title>
+</head>
+<body>
+    <header class="cabeca mb-5">
+        <div class="container navbar ">
+            <h1>Spa Viagens</h1>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a id="menu" class=" nav-link"  href="#carousel-exemplo">Prévia</a>
+                </li>
+                <li>
+                    <a id="menu" class=" nav-link"  href="#caminho">Viagem</a>
+                </li>
+                <li>
+                    <a id="menu" class=" nav-link"  href="#unidades">Opções</a>
+                </li>
+                <li>
+                    <a id="menu" class=" nav-link "  href="#sobre">Sobre</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="container text-center mt-5 text-light">
+        <h2>Quem não quer relaxar</h2>
+        <p>Busque a paz que a rotina nos priva duramnte o dia a dia, venha conhecer nossa maneira de cuidar de voce.</p>
+    </div>
+    <div class="col-xl">
+        <div id="carousel-exemplo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active  figura">
+                    <img class="d-block w-100" src="./lab/imagens/lake-1802337_1280.jpg" alt="arte livre do homem de ferro">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item figura">
+                    <img class="d-block w-100" src="./lab/imagens/lake-696098_1280.jpg" alt="arte livre do homem de ferro">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item figura">
+                    <img class="d-block w-100" src="./lab/imagens/sea-164989_1280.jpg" alt="arte recriando o homem de ferro, o ator Robert Downey jr">
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" type="button" class="carousel-control-prev ">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" type="button" class="carousel-control-next ">
+                <span  class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+    </div>
+    <div class="container text-center mt-5 text-light">
+        <h2>Relaxe com Opções</h2>
+        <p>É uma ter você conosco, a cultura do relaxamento e curar da alma é oferecida a você </p>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 mb-5" id="caminho">
+                <div class="card bg-danger bg-opacity-10">
+                    <div class="card-header">
+                        <h3 class="card-title text-center">Viagem e Cuidados</h3>
+                    </div>
+                    <img src="./lab/imagens/car1.jpg">
+                    <div class="card-body">
+                        <p class="card-text">Todos os clientes estarão sobre os nossos cuidados, desde o transporte, até a estadia em uma de nossas unidades, Relaxe durante a viagem!</p>
+                    </div>
+                    <div class="card-footer">
+                        Postado em:<time> 20/09/2054</time>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mb-5" id="unidades">
+                <div class="card bg-success bg-opacity-25">
+                    <div class="card-header">
+                        <h3 class="card-title text-center">Unidades e Opções</h3>
+                    </div>
+                    <img src="./lab/imagens/car2.jpg">
+                    <div class="card-body">
+                        <p class="card-text">Nossa empresa dispões de estabelecimentos que segue de acordo com o bem estar dos nossos hospedes, temos unidades com localizações.</p>
+                    </div>
+                    <div class="card-footer">
+                        Postado em:<time> 20/09/2054</time>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mb-5" id="sobre">
+                <div class="card bg-info bg-opacity-25">
+                    <div class="card-header">
+                        <h3 class="card-title text-center">Paz e Lazer</h3>
+                    </div>
+                    <img src="./lab/imagens/car3.jpg">
+                    <div class="card-body">
+                        <p class="card-text">Desfrute do bem estar completo com nossos serviços de passeios e contemple das paisagens mais belas que o nosso planeta irá proporcionar.</p>
+                    </div>
+                    <div class="card-footer">
+                        Postado em:<time> 20/09/2054</time>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./lab/bootstrap.bundle.min.js"></script>
+</body>
+</html>
